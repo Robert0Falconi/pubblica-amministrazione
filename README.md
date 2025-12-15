@@ -8,7 +8,7 @@
     <em>Orienta PA</em>
 </p>
 <p align="center">
-<a href="#"><img src="https://img.shields.io/badge/version-1.4.1-blue" alt="Version"></a>
+<a href="#"><img src="https://img.shields.io/badge/version-1.0-blue" alt="Version"></a>
 <a href="#"><img src="https://img.shields.io/badge/license-CC%20BY%204.0-green" alt="License"></a>
 <a href="#"><img src="https://img.shields.io/badge/last_update-2025-red" alt="Last update"></a>
 </p>
