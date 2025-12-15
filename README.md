@@ -1,4 +1,19 @@
-# Pubblica Amministrazione
+
+
+<p align="center">
+  <a href="#"><img src="https://github.com/Robert0Falconi/pubblica-amministrazione/blob/main/src/assets/loghi/LogoOrientaPA.svg" alt="Orienta PA" width="200">
+  </a>
+</p>
+<p align="center">
+    <em>Orienta PA</em>
+</p>
+<p align="center">
+<a href="#"><img src="https://img.shields.io/badge/version-1.4.1-blue" alt="Version"></a>
+<a href="#"><img src="https://img.shields.io/badge/license-CC%20BY%204.0-green" alt="License"></a>
+<a href="#"><img src="https://img.shields.io/badge/last_update-2025-red" alt="Last update"></a>
+</p>
+
+---
 
 FAC-SIMILE di un'applicazione web per la ricerca e l'esplorazione delle opportunità di lavoro nella Pubblica Amministrazione italiana, realizzata a fini didattici.
 
@@ -6,7 +21,7 @@ FAC-SIMILE di un'applicazione web per la ricerca e l'esplorazione delle opportun
 
 ## 📋 Descrizione
 
-**Pubblica Amministrazione** è una piattaforma che permette agli utenti di:
+**Orienta PA** è una piattaforma che permette agli utenti di:
 - Cercare enti della PA per nome o parola chiave
 - Filtrare le opportunità per area geografica
 - Visualizzare le posizioni aperte in ogni ente
