@@ -1,0 +1,431 @@
+/* Stile CSS generale */
+
+/* Root */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --giallo-primario: #fcdc00 !important;
+  --blu-secondario: #205ac7 !important;
+  --blu-terziario: #e6f4ff !important;
+  --blu-terziario-opaco: #2388d5 !important;
+  --grigio-testo: #373e48 !important;
+  --viola-accent: #901c96 !important;
+}
+
+/* Font */
+* {
+  font-family: "Titillium Web", sans-serif;
+  color: var(--grigio-testo) !important;
+}
+
+.titillium-web-extralight {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.titillium-web-light {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.titillium-web-regular {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titillium-web-semibold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.titillium-web-bold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.titillium-web-black {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.titillium-web-extralight-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.titillium-web-light-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.titillium-web-regular-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.titillium-web-semibold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.titillium-web-bold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Stili tag heading */
+h1,
+.h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h2,
+.h2 {
+  font-size: 2.56em;
+  line-height: 1.1;
+}
+
+h3,
+.h3 {
+  font-size: 2.048em;
+  line-height: 1.1;
+}
+
+h4,
+.h4 {
+  font-size: 1.638em;
+  line-height: 1.1;
+}
+
+h5,
+.h5 {
+  font-size: 1.31em;
+  line-height: 1.1;
+}
+
+h6,
+.h6 {
+  font-size: 1em !important;
+  line-height: 1.2em !important;
+}
+
+/* Font weight */
+.fw-200 {
+  font-weight: 200 !important;
+}
+
+.fw-300 {
+  font-weight: 300 !important;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+.fw-900 {
+  font-weight: 900 !important;
+}
+
+/* Stile app */
+#app {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0rem;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+}
+
+/* Bottoni */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.btn-primario {
+  background-color: var(--giallo-primario) !important;
+  border-color: var(--giallo-primario) !important;
+}
+
+.btn-primario span {
+  color: black !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+}
+
+.btn-primario:hover,
+.btn-primario:hover span {
+  background-color: var(--blu-secondario) !important;
+  color: white !important;
+}
+
+.btn-primario:hover .icon {
+  filter: invert(1);
+}
+
+.btn-secondario {
+  background-color: transparent !important;
+  border: 1px solid white !important;
+  color: white !important;
+}
+
+.btn-secondario span {
+  color: white !important;
+}
+
+.btn-secondario:hover {
+  background-color: white !important;
+  border: 1px solid white !important;
+}
+
+.btn-secondario:hover,
+.btn-secondario:hover span {
+  color: var(--blu-secondario) !important;
+}
+
+
+/* Stili aggiuntivi */
+section.testata {
+  background: white;
+  box-shadow: 0px 0px 14px 8px #00000008;
+  top: 0;
+  position: sticky !important;
+  z-index: 9999 !important;
+}
+
+.max-w-140px-mob-100px {
+  max-width: 140px;
+}
+
+.max-w-70px-mob-50px {
+  max-width: 70px;
+}
+
+.a-hover:hover {
+  color: var(--giallo-primario) !important;
+}
+
+.bg-blu-light {
+  background-color: var(--blu-terziario) !important;
+}
+
+.badge[data-v-247e8605] {
+  font-size: 0.65rem !important;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.bg-gray {
+  background-color: #373e48;
+}
+
+.bg-secondario {
+  background-color: var(--blu-secondario);
+}
+
+.bg-viola {
+  background-color: var(--viola-accent);
+}
+
+.shadow-light {
+  box-shadow: 0px 0px 14px 8px #00000008;
+}
+
+.fs-12px {
+  font-size: 12px;
+}
+
+.no-underline,
+.no-underline:hover {
+  text-decoration: none !important;
+}
+
+.card {
+  padding: 2em;
+}
+
+.fit-content {
+  max-width: fit-content !important;
+}
+
+.min-h-300px {
+  min-height: 300px;
+}
+
+.linea {
+  border: 1px solid var(--grigio-testo);
+  opacity: 0.2;
+}
+
+.linea-bianca {
+  border: 1px solid white;
+  opacity: 0.2;
+}
+
+.gradiente {
+  background-image: linear-gradient(90deg, var(--viola-accent) 60%, var(--blu-secondario) 85%, var(--blu-terziario-opaco));
+}
+
+.d-mobile-flex {
+  display: block;
+}
+
+.absolute-mobile-relative {
+  position: absolute;
+  bottom: 0;
+}
+
+/* Rimuovi il bordo attivo */
+li a.nav-link.active {
+  border-bottom-color: rgba(255, 255, 255, 0) !important;
+}
+
+/* Rimuovi il bordo di focus */
+html :focus:not([data-focus-mouse=true]),
+html .toggles label input[type=checkbox]:focus+.lever,
+html .form-check [type=checkbox]:focus+label,
+html .form-check [type=radio]:focus+label,
+html .form-check .toggles label:has(input[type=checkbox]:focus:not([data-focus-mouse=true])),
+html .it-carousel-wrapper .splide__pagination button:focus:not([data-focus-mouse=true]),
+html .upload:focus:not([data-focus-mouse=true])+label,
+html .upload-dragdrop-input:focus[type=file]:not([data-focus-mouse=true])+label,
+html .avatar-upload:focus-within:not([data-focus-mouse=true]),
+html .rating input:focus:not([data-focus-mouse=true])+label svg {
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+/* Opzioni dell'autocomplete al hover */
+.autocomplete__option:hover,
+.autocomplete__option:focus {
+  background-color: var(--giallo-primario) !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Opzione con focus da tastiera */
+.autocomplete__option[aria-selected="true"] {
+  background-color: var(--giallo-primario) !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Specifico per ogni autocomplete se necessario */
+#formMainInput1__listbox .autocomplete__option:hover,
+#formMainInput1__listbox .autocomplete__option:focus,
+#formMainInput1__listbox .autocomplete__option[aria-selected="true"] {
+  background-color: var(--giallo-primario) !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+#formMainInput2__listbox .autocomplete__option:hover,
+#formMainInput2__listbox .autocomplete__option:focus,
+#formMainInput2__listbox .autocomplete__option[aria-selected="true"] {
+  background-color: var(--giallo-primario) !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+ul[id*="__listbox"] .autocomplete__option:hover,
+ul[id*="__listbox"] .autocomplete__option:focus {
+  background-color: var(--giallo-primario) !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  color: inherit !important;
+}
+
+.autocomplete__option:hover {
+  background-color: #ffc107 !important;
+}
+
+/* Testo non selezionabile */
+.user-select-none {
+  user-select: none;
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE/Edge legacy */
+}
+
+@media screen and (max-width: 767px) {
+  .max-w-70px-mob-50px {
+    max-width: 50px;
+  }
+
+  .max-w-140px-mob-100px {
+    max-width: 100px;
+  }
+
+  .mobile-text {
+    font-size: 12px !important;
+    line-height: 13px !important;
+  }
+}
+
+@media screen and (max-width: 422px) {
+  .text-center-mobile {
+    text-align: center !important;
+    padding-bottom: 20px;
+  }
+
+  .d-mobile-flex {
+    display: flex !important;
+  }
+
+  .absolute-mobile-relative {
+    position: relative !important;
+  }
+}
